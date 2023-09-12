@@ -89,7 +89,7 @@ public class LinkedListJava {
 
     public static void main(String[] args) {
         LinkedListJava list = new LinkedListJava();
-
+        display(list);
         list = insert(list,1);
         list = insert(list,2);
         list = insert(list,3);
