@@ -30,6 +30,6 @@ public class LinkedListCycle{
             temp = temp.next;
         }
         list.head.next.next.next = list.head.next;
-        System.out.println(hasCycle(list.head));
+        System.out.print(hasCycle(list.head)+" ");
     }
 }
