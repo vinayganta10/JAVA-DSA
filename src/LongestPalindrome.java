@@ -26,6 +26,6 @@ public class LongestPalindrome {
     }
 
     public static void main(String[] args) {
-        System.out.println(longestPalindrome("madan"));
+        System.out.println(longestPalindrome("abb"));
     }
 }
