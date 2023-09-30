@@ -3,6 +3,7 @@ import java.util.*;
 public class vectorDemo {
     public static void main(String[] args) {
         Vector<Integer> v =new Vector<>();
+        Vector<Integer> v1 = new Vector<>();
         v.addElement(10);
         v.addElement(20);
         v.addElement(30);
@@ -16,6 +17,7 @@ public class vectorDemo {
         v.add(70);
         v.add(80);
         v.add(90);
+        System.out.println(v.contains(10));
         System.out.println(v.get(0));
         System.out.println(v.capacity());
     }
