@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class maxAreaContainer {
     public static int maxArea(int[] height) {
         int left = 0;
