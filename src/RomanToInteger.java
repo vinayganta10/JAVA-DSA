@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,5 +25,8 @@ public class RomanToInteger {
     }
     public static void main(String[] args) {
         System.out.println(romanToInt("MCMVII"));
+        String[] s = {"flower","flow","flight"};
+        Arrays.sort(s);
+        System.out.println(Arrays.toString(s));
     }
 }
