@@ -15,9 +15,5 @@ public class InsertSearch {
 
     public static void main(String[] args) {
         System.out.println(searchInsert(new int[]{1,2,3,5,6},4));
-        String s = "h";
-        StringBuilder s1= new StringBuilder("dfds");
-        String s2 = new String(s1);
-        System.out.println(s2);
     }
 }
