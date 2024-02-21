@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
+import java.util.*;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
@@ -12,6 +10,8 @@ public class ArrayListDemo {
         al.add(10);
         al.add(20);
         al.set(1,10);
+        String s ="duhehdc";
+        System.out.println(s.contains("eh"));
         al.add(2,null);
         al.add(3,30);
         System.out.println(al);

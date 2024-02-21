@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class NextPermutation {
     public static int[] nextPermutate(int[] nums) {
         int ind1=-1;
@@ -41,6 +43,6 @@ public class NextPermutation {
         }
     }
     public static void main(String[] args) {
-        System.out.println(nextPermutate(new int[]{1, 2, 3}));
+        System.out.println(Arrays.toString(nextPermutate(new int[]{1, 3, 2})));
     }
 }

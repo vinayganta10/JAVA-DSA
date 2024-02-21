@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class arrays {
     public static class cl{
